@@ -1,0 +1,100 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.b {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.perfil {
+  display: flex;
+  border-bottom: 1px solid #e8ebe4;
+  align-items: center;
+  padding: 1px;
+}
+.chats {
+  display: flex;
+  border-bottom: 1px solid #e8ebe4;
+  border-top: 1px solid #e8ebe4;
+  height: 65px;
+  justify-content: start;
+  width: 259px;
+  margin-left: 0;
+}
+.chatstxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.chatstxt h5 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.impr {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.manito {
+  width: 200px;
+  height: 200px;
+}
+.icn {
+  display: flex;
+  justify-content: end;
+  width: 100px;
+}
+.btnnc {
+  background-color: #a491d2;
+  color: white;
+  margin: 20px 20px 20px 20px;
+  border-style: solid;
+  width: 150px;
+}
+.nombre {
+  display: flex;
+  flex-direction: column;
+}
+.perftxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.perftxt h4 {
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+.perftxt p {
+  color: #bec1bb;
+}

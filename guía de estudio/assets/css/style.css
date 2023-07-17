@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 800px;
+  background-image: url("https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  color: white;
+}
+menu {
+  background-color: black;
+  width: 10em;
+  min-height: 100vh;
+  margin: 0px;
+}
+menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+menu li {
+  padding: 20px;
+  list-style: none;
+}
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+menu a:hover {
+  color: white;
+}
+.main {
+  display: flex;
+}
